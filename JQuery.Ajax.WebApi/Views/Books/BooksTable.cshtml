@@ -1,15 +1,20 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+    ViewBag.Title = "BooksTable";
+}
+
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <title>booksTable</title>
     <link rel="stylesheet" href="booksTable.css">
-    <title>index</title>
+
 </head>
 <body>
-    <h1>API PROJESİ</h1>
-
+    <button id="getData">Veri Al</button>
     <div id="dataContainer">
         <table id="dataTable">
             <thead>
@@ -36,16 +41,12 @@
             </tbody>
         </table>
     </div>
-    <button id="getData">Veri Al</button>
-    <button id="createBook">Kitap Oluştur</button>
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <script src="update.js"></script>
     <script src="delete.js"></script>
-    <script src="create.js"></script>
     <script src="https://kit.fontawesome.com/8027810926.js" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
