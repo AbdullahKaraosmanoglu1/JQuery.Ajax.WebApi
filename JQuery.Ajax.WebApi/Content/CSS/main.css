@@ -1,0 +1,43 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10vh;
+}
+
+#dataContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.name,
+.author,
+.publisher {
+    margin-bottom: 10px;
+}
+
+/*h1 {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}*/
+
+/*#createBookSection {
+    text-align: right;
+}*/
+
+#createBookSection input {
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+/*#getAllBooksBtn {
+    display: block;
+    margin-top: 10px;
+}*/
+
+
