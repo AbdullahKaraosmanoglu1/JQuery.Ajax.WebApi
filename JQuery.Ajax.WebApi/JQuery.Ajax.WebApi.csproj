@@ -214,9 +214,12 @@
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\JQuery-Ajax\create.js" />
+    <Content Include="Scripts\JQuery-Ajax\delete.js" />
+    <Content Include="Scripts\JQuery-Ajax\login.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\script.js" />
-    <Content Include="Scripts\update.js" />
+    <Content Include="Scripts\JQuery-Ajax\script.js" />
+    <Content Include="Scripts\JQuery-Ajax\update.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -233,6 +236,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Books\BooksTable.cshtml" />
     <Content Include="Views\Books\UpdateBook.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
