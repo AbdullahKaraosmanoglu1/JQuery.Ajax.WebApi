@@ -217,6 +217,7 @@
     <Content Include="Scripts\JQuery-Ajax\create.js" />
     <Content Include="Scripts\JQuery-Ajax\delete.js" />
     <Content Include="Scripts\JQuery-Ajax\login.js" />
+    <Content Include="Scripts\JQuery-Ajax\register.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\JQuery-Ajax\script.js" />
     <Content Include="Scripts\JQuery-Ajax\update.js" />
@@ -237,6 +238,7 @@
     <Content Include="Views\Books\BooksTable.cshtml" />
     <Content Include="Views\Books\UpdateBook.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Register\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
